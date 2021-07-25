@@ -18,9 +18,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="./css/style.css" />
-
     <title>Panda</title>
   </head>
 
@@ -72,7 +70,7 @@
         </div>
       </nav>
 
-      <section class="bannner container bg-info bg-gradient">
+      <section class=" 1bannner container bg-info bg-gradient borde rounded-3">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -147,14 +145,168 @@
     </header>
 
     <main>
-      <section class="top-section">
-        
-
-        <div class="category"></div>
+      <section class="container  mt-5 ">
+       
+          <h5 >Categories</h5>
+          <div class=" pt-3 pb-5 row gy-4">
+            <div class="col-lg-4 ">
+             <div class="d-flex justify-content-evenly align-items-center border bg-danger border rounded-3 ">
+               <h1 class="text-white">Shoes</h1>
+              <img src="./categories/shoes.png" class="h-145 w-110" alt="">
+             </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="d-flex justify-content-evenly align-items-center border bg-success border rounded-3">
+                <h1 class="text-white">Watch</h1>
+                <img src="./categories/watch.png"  alt="" >
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="d-flex align-items-center justify-content-evenly border bg-warning border rounded-3">
+                <h1 class="text-white">Bag</h1>
+                <img src="./categories/bag.png" alt="">
+              </div>
+            </div>
+            
+          </div> 
       </section>
+
+      <section class="pt-3 bg-light pd-5">
+        <div class="container mt-5">
+          <div class="d-flex">
+            <h5>Shoes  </h5>
+            <a class="ms-auto p-2 bd-highligh" href="">See All </a>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4  ">
+            <div class="col ">
+              <div class="border-0 card h-100 shadow-lg rounded-3 ">
+                <img src="./shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body p-5">
+                  <h5 class="text-center  card-title">Reebok Dart Men’s Shoes</h5>
+                  <p class="card-text text-center ">Some quick example text to build on
+                    the card title..</p>
+                </div>
+                <div class="card-footer bg-white border-0 d-flex justify-content-center flex-column align-items-center pb-5">
+                  <h5>$999</h5>
+                 <button class="btn btn-dark">Buy now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card h-100 border-0 shadow-lg rounded-3">
+                <img src="./shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body p-5">
+                  <h5 class="text-center  card-title">Reebok Pump</h5>
+                  <p class="text-center  card-text">Some quick example text to build on
+                    the card title.</p>
+                </div>
+                <div class="card-footer bg-white border-0 d-flex justify-content-center flex-column align-items-center pb-5">
+                  <h5>$999</h5>
+                 <button class="btn btn-dark">Buy now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 rounded-3 shadow-lg">
+                <img src="./shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body p-5 ">
+                  <h5 class="text-center  card-title">Reebok All Terrain</h5>
+                  <p class="card-text text-center ">Some quick example text to build on
+                    the card title.</p>
+                </div>
+                <div class="card-footer bg-white border-0 d-flex justify-content-center flex-column align-items-center pb-5">
+                  <h5>$999</h5>
+                 <button class="btn btn-dark">Buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      <section class="bg-light " >
+          <div class="container py-5  ">
+            <div class="d-flex ">
+              <h5>Backpack </h5>
+              <a class="ms-auto p-2 bd-highligh" href="">See All </a>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4  ">
+              <div class="col ">
+                <div class="border-0 card h-100 shadow-lg rounded-3 ">
+                  <img src="./bags/bag-1.png" class="card-img-top" alt="...">
+                  <div class="card-body p-5">
+                    <h5 class="text-center  card-title">Reebok Dart Men’s Shoes</h5>
+                    <p class="card-text text-center ">Some quick example text to build on
+                      the card title..</p>
+                  </div>
+                  <div class="card-footer bg-white border-0 d-flex justify-content-center flex-column align-items-center pb-5">
+                    <h5>$999</h5>
+                   <button class="btn btn-dark">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col ">
+                <div class="card h-100 border-0 shadow-lg rounded-3">
+                  <img src="./bags/bag-2.png" class="card-img-top" alt="...">
+                  <div class="card-body p-5">
+                    <h5 class="text-center  card-title">Reebok Pump</h5>
+                    <p class="text-center  card-text">Some quick example text to build on
+                      the card title.</p>
+                  </div>
+                  <div class="card-footer bg-white border-0 d-flex justify-content-center flex-column align-items-center pb-5">
+                    <h5>$999</h5>
+                   <button class="btn btn-dark">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 rounded-3 shadow-lg">
+                  <img src="./bags/bag-3.png"  class="card-img-top" alt="...">
+                  <div class="card-body p-5 ">
+                    <h5 class="text-center  card-title">Reebok All Terrain</h5>
+                    <p class="card-text text-center ">Some quick example text to build on
+                      the card title.</p>
+                  </div>
+                  <div class="card-footer bg-white border-0 d-flex justify-content-center flex-column align-items-center pb-5">
+                    <h5>$999</h5>
+                   <button class="btn btn-dark">Buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+      </section>
+        
+      
+
+      <section class="bg-white  mt-5 ">
+        <div class=" py-5 container bg-warning my-5 rounded-3">
+
+          <h2 class="text-center">LET'S STAY IN TOUCH
+          </h2>
+          <p class="text-center">Get updates on sales specials and more</p>
+          <form class=" d-flex justify-content-center ">
+            <div class="col-auto">
+              <label for="email" class="visually-hidden">Enter your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Send</button>
+            </div>
+          </form>
+
+        </div>
+
+      </section>
+     
     </main>
 
-    <footer></footer>
+    <footer class="container">
+
+
+
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
